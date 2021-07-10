@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1623500549743-63abf749c4d0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=3000&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYyNTg0NDg3OA&ixlib=rb-1.2.1&q=80&w=4000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-content{
+    text-align: center;
+    // background-color: coral;
+    padding: 10em 0;
+    h1{
+        color: rgb(226, 226, 226);
+        font-size: 70px;
+        font-weight: bold;
+    }
+    h2{
+        color: rgb(226, 226, 226);
+        font-size: 40px;
+    }
+
+}
+
+.content{
+    flex-grow: 3;
+}
+
+.footer{
+    // background-color: coral;
+    display: flex;
+    p{
+        font-size: 20px;
+    }
+    app-tabs{
+        margin: auto;
+    }
+}
