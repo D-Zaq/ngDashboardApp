@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    // overflow-y: auto;
+}
+.item{
+    width: 600px;
+    height: auto;
+    background-color: rgba($color: white, $alpha: 0.25);
+    padding: 10px;
+    border-radius: 20px;
+}

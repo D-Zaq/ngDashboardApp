@@ -58,3 +58,10 @@ button:focus{
     background-color: rgba($color: #5cbe95, $alpha: 0.75);
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.5);
 }
+// button::after:focus{
+//     content: "";
+//     transform: translate(0px,-75%);
+//     transition: all 0.5s;
+//     background-color: rgba($color: #5cbe95, $alpha: 0.75);
+//     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.5);
+// }

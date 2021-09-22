@@ -27,6 +27,11 @@
 
 .content{
     flex-grow: 3;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba($color: white, $alpha: 0.25);
+    margin: auto;
+    overflow-y: auto;
 }
 
 .footer{

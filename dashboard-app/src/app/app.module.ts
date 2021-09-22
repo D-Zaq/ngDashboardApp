@@ -9,6 +9,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { FavouritesComponent } from './favourites/favourites.component';
 import { TodosComponent } from './todos/todos.component';
 import { NotesComponent } from './notes/notes.component';
+import { FavouritesItemComponent } from './favourites-item/favourites-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NotesComponent } from './notes/notes.component';
     TabsComponent,
     FavouritesComponent,
     TodosComponent,
-    NotesComponent
+    NotesComponent,
+    FavouritesItemComponent
   ],
   imports: [
     BrowserModule,
